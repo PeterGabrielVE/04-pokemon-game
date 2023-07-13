@@ -33,7 +33,7 @@ const getPokemonNames = async( [a,b,c,d] = [] ) => {
 
 
     const [ p1, p2, p3, p4 ] = await Promise.all( promiseArr )
-
+    
     return [
         { name: p1.data.name, id: p1.data.id },
         { name: p2.data.name, id: p2.data.id },
